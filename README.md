@@ -8,12 +8,12 @@ This is an end-to-end data project that builds a complete pipeline to predict th
 
 **Note:** A live web link requires a work/school account. To view the dashboard:
 
-1.  **Download the `.pbix` file** from this repository [by clicking here](./Solar_Dashboard.pbix). (You will need to rename your `.pbix` file to `Solar_Dashboard.pbix` and add it to the repository).
+1.  **Download the `.pbix` file** from this repository [by clicking here](./Solar_Dashboard.pbix).
 2.  **Open the file** using the free [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application.
 3.  The dashboard will connect to the `cleaned_generation_data` table for its visuals.
 
-*(Optional: Add a screenshot of your dashboard here!)*
-`![Dashboard Screenshot](your_screenshot_filename.png)`
+<img width="1167" height="609" alt="Screenshot 2025-11-13 163344" src="https://github.com/user-attachments/assets/dbfe2966-e9a3-4afe-87a7-6391e00d6a6e" />
+
 
 ---
 
@@ -43,8 +43,8 @@ This project follows a complete ETL-style (Extract, Transform, Load) and modelin
 
 The machine learning model performed exceptionally well, proving the strong correlation between sensor readings and power output.
 
-* **R-Squared:** **0.986** (The model explains 98.6% of the variance in power output)
-* **RMSE:** **99.96 Watts** (The model's average prediction error)
+* **R-Squared:** **0.98** (The model explains 98% of the variance in power output)
+* **RMSE:** **11,51 kiloWatts** (The model's average prediction error)
 * **Top Feature:** `irradiance` was identified as the most important predictor of power.
 
 ---
