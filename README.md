@@ -53,7 +53,7 @@ The machine learning model performed exceptionally well, proving the strong corr
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [your_repository_url]
+    git clone [https://github.com/EngEleLuiz/Solar-Generation-Forecasting-Pipeline]
     ```
 2.  **Set up the Environment:**
     * Install the required Python libraries:
