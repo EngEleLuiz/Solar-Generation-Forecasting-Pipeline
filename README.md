@@ -1,4 +1,7 @@
 # ☀️ Solar Power Performance Prediction Pipeline
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 This is an end-to-end data project that builds a complete pipeline to predict the power output of a solar PV array. The project ingests raw sensor data, uses a Python-based machine learning model to make predictions, loads the results into a SQL database, and visualizes the entire system in a Power BI dashboard.
 
@@ -70,3 +73,6 @@ The machine learning model performed exceptionally well, proving the strong corr
     * Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
     * Open the `Solar_Dashboard.pbix` file.
     * If prompted, click "Refresh" and ensure it can connect to your local PostgreSQL server.
+## 👨‍💻 Author
+
+**[Luiz Rosa]** *Power Systems Engineer | Python Developer* [[LinkedIn](https://www.linkedin.com/in/luiz-gustavo-rosa-12407536b/)]
